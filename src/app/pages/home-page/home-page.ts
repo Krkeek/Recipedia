@@ -6,4 +6,7 @@ import { Component } from '@angular/core';
   templateUrl: './home-page.html',
   styleUrl: './home-page.css',
 })
-export class HomePage {}
+export class HomePage {
+  private y = 1;
+  protected x = 1;
+}
