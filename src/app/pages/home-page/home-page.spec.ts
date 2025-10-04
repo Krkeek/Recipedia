@@ -9,7 +9,9 @@ describe('HomePage', () => {
   beforeEach(async () => {
     await TestBed.configureTestingModule({
       imports: [HomePage],
-    }).compileComponents();
+    }).compi;
+
+    leComponents();
 
     fixture = TestBed.createComponent(HomePage);
     component = fixture.componentInstance;
