@@ -4,8 +4,6 @@ import { Component } from '@angular/core';
   selector: 'app-side-panel',
   imports: [],
   templateUrl: './side-panel.html',
-  styleUrl: './side-panel.css'
+  styleUrl: './side-panel.css',
 })
-export class SidePanel {
-
-}
+export class SidePanel {}

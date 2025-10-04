@@ -4,8 +4,6 @@ import { Component } from '@angular/core';
   selector: 'app-explorer',
   imports: [],
   templateUrl: './explorer.html',
-  styleUrl: './explorer.css'
+  styleUrl: './explorer.css',
 })
-export class Explorer {
-
-}
+export class Explorer {}
