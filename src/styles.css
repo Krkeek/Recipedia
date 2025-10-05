@@ -3,9 +3,13 @@
 * {
   margin: 0;
 }
-
+:root {
+  --default-BackgroundColor: #e8ecef;
+  --default-BorderRadius: 15px;
+}
 .page {
   height: 100vh;
   width: 100vw;
   display: flex;
+  align-items: center;
 }
