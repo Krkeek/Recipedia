@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, input } from '@angular/core';
 
 @Component({
   selector: 'app-side-panel-button',
@@ -6,4 +6,7 @@ import { Component } from '@angular/core';
   templateUrl: './side-panel-button.html',
   styleUrl: './side-panel-button.css',
 })
-export class SidePanelButton {}
+export class SidePanelButton {
+  public label= input.required();
+
+}

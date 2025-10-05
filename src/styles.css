@@ -6,6 +6,7 @@
 :root {
   --default-BackgroundColor: #e8ecef;
   --default-BorderRadius: 15px;
+  --default-ButtonHoverBackgroundColor: #62b6cb;
 }
 .page {
   height: 100vh;

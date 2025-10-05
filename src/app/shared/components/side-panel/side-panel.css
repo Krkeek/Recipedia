@@ -3,4 +3,6 @@
   width: 10vw;
   background-color: var(--default-BackgroundColor);
   border-radius: var(--default-BorderRadius);
+  padding: 1rem 0;
+  box-sizing: border-box;
 }

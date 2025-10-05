@@ -1,0 +1,15 @@
+.button {
+  display: block;
+  width: 100%;
+  padding: 0.9rem 0;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  background-color: var(--default-BackgroundColor);
+  transition: background-color 100ms linear;
+}
+
+.button:hover {
+  background-color: var(--default-ButtonHoverBackgroundColor);
+  transition: background-color 100ms linear;
+}
