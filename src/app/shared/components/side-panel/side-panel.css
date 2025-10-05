@@ -1,6 +1,6 @@
-.container{
-    height: 98vh;
-    width:  10vw;
-    background-color: var(--default-BackgroundColor);
-    border-radius: var(--default-BorderRadius);
+.container {
+  height: 98vh;
+  width: 10vw;
+  background-color: var(--default-BackgroundColor);
+  border-radius: var(--default-BorderRadius);
 }
