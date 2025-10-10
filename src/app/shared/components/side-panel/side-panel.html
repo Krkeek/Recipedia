@@ -1,5 +1,9 @@
 <div class="container">
-  <app-side-panel-button [label]="SidePanelNavigator.Dashboard"></app-side-panel-button>
-  <app-side-panel-button [label]="SidePanelNavigator.Favorite"></app-side-panel-button>
-  <app-side-panel-button [label]="SidePanelNavigator.Settings"></app-side-panel-button>
+  <div class="header">
+    <img class="logo" ngSrc="images/Logo.webp" width="50" height="50" alt="Logo" priority />
+    <div class="title">RECIPEDIA</div>
+  </div>
+  @for (navigatePoint of NAVIGATION_POINTS; track $index) {
+    <app-side-panel-button [navigationPoint]="navigatePoint"></app-side-panel-button>
+  }
 </div>

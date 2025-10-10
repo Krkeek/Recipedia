@@ -1,5 +1,8 @@
 import { Component, input } from '@angular/core';
 
+import { SidePanelNavigator } from '../../../../core/enums/SidePanelNavigator';
+import { NavigationPoint } from '../../../../core/interfaces/NavigationPoint';
+
 @Component({
   selector: 'app-side-panel-button',
   imports: [],
@@ -7,5 +10,6 @@ import { Component, input } from '@angular/core';
   styleUrl: './side-panel-button.css',
 })
 export class SidePanelButton {
-  public label = input.required();
+  public navigationPoint = input.required<NavigationPoint>();
+  protected SidePanelNavigator = SidePanelNavigator;
 }

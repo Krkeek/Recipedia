@@ -1,8 +1,23 @@
 .container {
-  height: 98vh;
-  width: 10vw;
+  height: 100vh;
+  width: fit-content;
   background-color: var(--default-BackgroundColor);
-  border-radius: var(--default-BorderRadius);
-  padding: 1rem 0;
+  position: relative;
+}
+
+.header {
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+  padding: 0.8rem 0.5rem 0 0.5rem;
   box-sizing: border-box;
+}
+
+.title {
+  border-left: 1px solid black;
+  margin-left: 0.5rem;
+  padding: 0.5rem 0.5rem 0.5rem;
+  text-align: end;
 }

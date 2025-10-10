@@ -1,1 +1,10 @@
-<button class="button">{{ label() }}</button>
+<button
+  [class]="
+    'button ' + (navigationPoint().label === SidePanelNavigator.Settings ? 'last-element' : '')
+  "
+>
+  <span class="material-symbols-outlined icon">
+    {{ navigationPoint().iconName }}
+  </span>
+  {{ navigationPoint().label }}
+</button>
