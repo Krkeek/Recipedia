@@ -7,6 +7,5 @@ import { Component, input } from '@angular/core';
   styleUrl: './side-panel-button.css',
 })
 export class SidePanelButton {
-  public label= input.required();
-
+  public label = input.required();
 }

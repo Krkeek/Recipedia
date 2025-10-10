@@ -4,7 +4,6 @@ import { SidePanelNavigator } from '../../../core/enums/SidePanelNavigator';
 
 import { SidePanelButton } from './side-panel-button/side-panel-button';
 
-
 @Component({
   selector: 'app-side-panel',
   imports: [SidePanelButton],
