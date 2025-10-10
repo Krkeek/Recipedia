@@ -3,7 +3,7 @@ import { NavigationPoint } from '../interfaces/NavigationPoint';
 
 export const NAVIGATION_POINTS: NavigationPoint[] = [
   {
-    label: SidePanelNavigator.Explore,
+    label: SidePanelNavigator.Explorer,
     iconName: 'chef_hat',
     disabled: false,
   },

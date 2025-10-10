@@ -1,5 +1,5 @@
 export enum SidePanelNavigator {
-  Explore = 'Explore',
+  Explorer = 'Explorer',
   MyRecipes = 'My Recipes',
   Favorites = 'Favorites',
   Settings = 'Settings',
