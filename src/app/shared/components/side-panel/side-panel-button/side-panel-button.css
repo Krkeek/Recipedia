@@ -1,0 +1,29 @@
+.button {
+  padding: 0.9rem 0;
+  padding-left: 2rem;
+  box-sizing: border-box;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  background-color: var(--default-BackgroundColor);
+  transition: background-color 100ms linear;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: var(--default-ButtonHoverBackgroundColor);
+  transition: background-color 100ms linear;
+}
+
+.icon {
+  padding-right: 0.5rem;
+}
+
+.last-element {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}

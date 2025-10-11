@@ -1,1 +1,11 @@
-<p>side-panel-button works!</p>
+<button
+  [class]="
+    'button ' + (navigationPoint().label === SidePanelNavigator.Settings ? 'last-element' : '')
+  "
+  [disabled]="navigationPoint().disabled"
+>
+  <span class="material-symbols-outlined icon">
+    {{ navigationPoint().iconName }}
+  </span>
+  {{ navigationPoint().label }}
+</button>
