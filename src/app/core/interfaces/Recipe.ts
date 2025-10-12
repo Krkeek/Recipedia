@@ -25,7 +25,7 @@ export interface Recipe {
 
   ingredients: Ingredient[];
   preparation: PreparationStep[];
-  equipment: string[];
+  equipments: string[];
 
   imagesUrl: string[];
   videosUrl: string[];

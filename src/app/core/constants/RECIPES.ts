@@ -115,7 +115,7 @@ export const RECIPES: Recipe[] = [
       },
     ],
 
-    equipment: ['Pot', 'Frying Pan', 'Mixing Bowl', 'Strainer', 'Tongs'],
+    equipments: ['Pot', 'Frying Pan', 'Mixing Bowl', 'Strainer', 'Tongs'],
 
     imagesUrl: [
       'https://images.unsplash.com/photo-1589302168068-964664d93dc0',
