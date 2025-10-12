@@ -18,6 +18,11 @@
   transition: background-color 100ms linear;
 }
 
+.button.active {
+  background-color: var(--default-ButtonHoverBackgroundColor);
+  transition: background-color 100ms linear;
+}
+
 .icon {
   padding-right: 0.5rem;
 }
