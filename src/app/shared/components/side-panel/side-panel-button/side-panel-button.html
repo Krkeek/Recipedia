@@ -3,6 +3,9 @@
     'button ' + (navigationPoint().label === SidePanelNavigator.Settings ? 'last-element' : '')
   "
   [disabled]="navigationPoint().disabled"
+  [routerLink]="navigationPoint().path"
+  routerLinkActive="active"
+  [routerLinkActiveOptions]="{ exact: true }"
 >
   <span class="material-symbols-outlined icon">
     {{ navigationPoint().iconName }}
